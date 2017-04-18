@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>About Me</title>
 	<link rel="stylesheet" type="text/css" href="assets\css\reset.css">
 	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
 </head>
 <body>
-	<header class="mainHeader">
-		
-		<div id="mainLogo">
-			<a href= "index.html" id="logo">Wes Van Duine</a>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Wes Van Duine</a>
+				<nav>
+					<a href= "index.html">About</a><
+					<a href= "portfolio.html">Portfolio</a>
+					<a href= "contact.html">Contact</a>
+				</nav>
 		</div>
-				<ul>
-					<li><a href= "index.html" id="a1">About</a></li>
-					<li><a href= "portfolio.html" id="a2">Portfolio</a><li>
-					<li><a href= "contact.html" id="a3">Contact</a></li>
-				</ul>
 	</header>
 
-
-	<div class="conatiner">
-		
-		<section id="bio" class="main-content">
-			
+	<div id="main-container" class="container">
+		<section class="main-section">
 			<h1>Contact</h1>
 			
 			<form id="contact-form">
@@ -41,10 +38,9 @@
 						<label for="Message">Message:</label>
 						<textarea id="message" name="message" required="required"></textarea>
 					</li>
-				<button type="button">Submit</button>
-
 				</ul>
 				
+				<input type="submit" name="submit">
 			</form>
 		
 		</section>
@@ -53,13 +49,15 @@
 			<div id= "connect">
 				<h2>Connect with Me</h2>
 
-				<img src="assets\images\1492077790_github.png" class="social" alt="LinkedIn">
+				<img src="assets\images\1492077790_github.png" class="social" alt="GitHub">
 				<img src="assets\images\1492078028_linkedin.png" class="social" alt="LinkedIn">
 				<img src="assets\images\1492078103_stackoverflow-square-shadow-social-media.png" class="social" alt="Stack Overflow">
+			</div>
 		</section>
 	</div>
 
 	<footer>
+		<div class="container">
 			&copy; Copyright Wes Van Duine
 		</div>
 	</footer>
